@@ -1,0 +1,29 @@
+.footer{
+  position: relative;
+  background-color: rgb(30,30,25);
+  color:white;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  
+}
+.copy-right {
+      width: 100%;
+      height: 40px;
+      background: #111;
+      /* positions the copyright at the bottom of the footer */
+      padding: 10px;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+.details{
+  padding-block: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 40px;
+}
+.contacts{
+  display: grid;
+  grid-template-columns: 1fr;
+}
